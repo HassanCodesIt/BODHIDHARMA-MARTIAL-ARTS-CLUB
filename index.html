@@ -1,0 +1,756 @@
+<html lang="en" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodhidharma Martial Arts Club | Shaolin Kung-Fu &amp; Kick Boxing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <style>
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+    </style>
+</head>
+<body class="bg-[#0A0A0A] text-gray-300 font-inter antialiased selection:bg-[#C0392B] selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 top-0 border-b border-white/5 bg-[#0A0A0A]/80 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="font-cinzel text-2xl tracking-tighter font-medium text-white flex items-center gap-2">
+                BODHIDHARMA
+            </a>
+            <div class="hidden md:flex space-x-8 text-base font-normal tracking-wide">
+                <a href="#about" class="hover:text-white transition-colors">About</a>
+                <a href="#programs" class="hover:text-white transition-colors">Programs</a>
+                <a href="#gallery" class="hover:text-white transition-colors">Gallery</a>
+                <a href="#schedule" class="hover:text-white transition-colors">Schedule</a>
+                <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+            </div>
+            <a href="#contact" class="hidden md:inline-flex items-center justify-center px-5 py-2 text-base font-normal text-white bg-[#C0392B]/90 hover:bg-[#C0392B] transition-colors rounded-sm tracking-wide">
+                Join Now
+            </a>
+            <button class="md:hidden text-white">
+                <i data-lucide="menu" stroke-width="1.5" class="w-6 h-6"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1526506114734-67d2642a472c?auto=format&amp;fit=crop&amp;q=80&amp;w=1600&amp;h=900" alt="Martial Arts Background" class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-[#0A0A0A]/80 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/50 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6 w-full text-center lg:text-left flex flex-col items-center lg:items-start animate-fade-in">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-green-500/30 bg-green-500/10 text-green-400 text-sm font-normal tracking-wide mb-6">
+                <span class="relative flex h-2 w-2">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                </span>
+                ADMISSION OPEN
+            </div>
+            
+            <h1 class="font-cinzel text-5xl md:text-7xl lg:text-8xl font-medium tracking-tighter text-white leading-[1.1] mb-4">
+                BODHIDHARMA
+            </h1>
+            <p class="text-xl md:text-2xl text-[#F39C12] font-normal tracking-tight mb-6">
+                MARTIAL ARTS CLUB — Shaolin Kung-Fu &amp; Kick Boxing
+            </p>
+            <p class="max-w-xl text-gray-400 text-lg md:text-xl mb-10 leading-relaxed text-center lg:text-left">
+                Join the Elites! Train, Compete, and Conquer from STATE to INTERNATIONAL LEVELS.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#contact" class="inline-flex items-center justify-center px-8 py-3 text-base font-normal text-white bg-[#C0392B] hover:bg-red-700 transition-colors rounded-sm tracking-wide shadow-[0_0_20px_rgba(192,57,43,0.3)] hover:shadow-[0_0_30px_rgba(192,57,43,0.5)]">
+                    Join Now
+                </a>
+                <a href="tel:9746077661" class="inline-flex items-center justify-center px-8 py-3 text-base font-normal text-[#F39C12] border border-[#F39C12]/50 hover:bg-[#F39C12]/10 transition-colors rounded-sm tracking-wide">
+                    Call Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 md:py-32 bg-[#0A0A0A]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate-fade-in delay-100">
+                    <h2 class="font-cinzel text-3xl md:text-4xl font-medium tracking-tighter text-white mb-6">
+                        Train Hard. Fight Smart.
+                    </h2>
+                    <p class="text-lg text-gray-400 leading-relaxed mb-8">
+                        We are affiliated with internationally recognized martial arts bodies. Our students compete from State to International level under expert guidance, mastering discipline, technique, and competitive spirit.
+                    </p>
+                    
+                    <div class="inline-flex items-center gap-3 px-4 py-2 bg-[#1A1A1A] border border-white/5 rounded-sm mb-8 text-base">
+                        <i data-lucide="shield-check" stroke-width="1.5" class="w-5 h-5 text-[#F39C12]"></i>
+                        <span class="text-gray-300">Govt. Reg. No: <span class="text-white font-normal">TSR/TC/182/25</span></span>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h3 class="text-base font-normal text-white tracking-wide uppercase">Official Affiliations</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-base text-gray-400">
+                                <i data-lucide="badge-check" stroke-width="1.5" class="w-5 h-5 text-[#C0392B] shrink-0"></i>
+                                Ying – Shaolin Kung Fu Academy of Martial Arts Pvt. Ltd.
+                            </li>
+                            <li class="flex items-center gap-3 text-base text-gray-400">
+                                <i data-lucide="badge-check" stroke-width="1.5" class="w-5 h-5 text-[#C0392B] shrink-0"></i>
+                                Wushu Kung-Fu Organization Kerala
+                            </li>
+                            <li class="flex items-center gap-3 text-base text-gray-400">
+                                <i data-lucide="badge-check" stroke-width="1.5" class="w-5 h-5 text-[#C0392B] shrink-0"></i>
+                                World Association of Kickboxing Organizations (WAKO India)
+                            </li>
+                            <li class="flex items-center gap-3 text-base text-gray-400">
+                                <i data-lucide="badge-check" stroke-width="1.5" class="w-5 h-5 text-[#C0392B] shrink-0"></i>
+                                WAIS Kerala
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="relative animate-fade-in delay-200">
+                    <div class="aspect-[4/3] rounded-sm overflow-hidden bg-[#1A1A1A]">
+                        <img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&amp;fit=crop&amp;q=80&amp;w=1600&amp;h=1200" alt="Kung Fu Training" class="w-full h-full object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 w-48 h-48 bg-gradient-to-tr from-[#C0392B]/20 to-transparent blur-2xl z-[-1]"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="py-24 md:py-32 bg-[#111111] border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 animate-fade-in">
+                <h2 class="font-cinzel text-3xl md:text-4xl font-medium tracking-tighter text-white mb-4">
+                    Elite Training Programs
+                </h2>
+                <p class="text-base text-gray-400">Structured disciplines designed for mastery, fitness, and competitive dominance.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="group p-8 bg-[#0A0A0A] border border-white/5 hover:border-[#C0392B]/50 transition-colors duration-300 rounded-sm animate-fade-in delay-100">
+                    <i data-lucide="user" stroke-width="1.5" class="w-8 h-8 text-[#C0392B] mb-6 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h3 class="text-xl font-normal text-white mb-3 tracking-tight">Shaolin Kung-Fu</h3>
+                    <p class="text-base text-gray-400 leading-relaxed">Traditional forms, discipline, mental focus, and practical self-defense techniques.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="group p-8 bg-[#0A0A0A] border border-white/5 hover:border-[#C0392B]/50 transition-colors duration-300 rounded-sm animate-fade-in delay-200">
+                    <i data-lucide="zap" stroke-width="1.5" class="w-8 h-8 text-[#F39C12] mb-6 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h3 class="text-xl font-normal text-white mb-3 tracking-tight">Kick Boxing</h3>
+                    <p class="text-base text-gray-400 leading-relaxed">High-intensity fitness, striking technique, and competitive sparring preparation.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="group p-8 bg-[#0A0A0A] border border-white/5 hover:border-[#C0392B]/50 transition-colors duration-300 rounded-sm animate-fade-in delay-300">
+                    <i data-lucide="trophy" stroke-width="1.5" class="w-8 h-8 text-[#C0392B] mb-6 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h3 class="text-xl font-normal text-white mb-3 tracking-tight">Competition Training</h3>
+                    <p class="text-base text-gray-400 leading-relaxed">Dedicated coaching for athletes aiming from State to International level tournaments.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="group p-8 bg-[#0A0A0A] border border-white/5 hover:border-[#C0392B]/50 transition-colors duration-300 rounded-sm animate-fade-in delay-100">
+                    <i data-lucide="smile" stroke-width="1.5" class="w-8 h-8 text-[#F39C12] mb-6 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h3 class="text-xl font-normal text-white mb-3 tracking-tight">Junior Warriors</h3>
+                    <p class="text-base text-gray-400 leading-relaxed">Specialized kids martial arts program (age 5+) focusing on focus, respect, and motor skills.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="group p-8 bg-[#0A0A0A] border border-white/5 hover:border-[#C0392B]/50 transition-colors duration-300 rounded-sm animate-fade-in delay-200">
+                    <i data-lucide="activity" stroke-width="1.5" class="w-8 h-8 text-[#C0392B] mb-6 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h3 class="text-xl font-normal text-white mb-3 tracking-tight">Fitness &amp; Conditioning</h3>
+                    <p class="text-base text-gray-400 leading-relaxed">Core strength, flexibility, endurance training tailored for combat sports athletes.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="group p-8 bg-[#0A0A0A] border border-white/5 hover:border-[#C0392B]/50 transition-colors duration-300 rounded-sm animate-fade-in delay-300">
+                    <i data-lucide="layers" stroke-width="1.5" class="w-8 h-8 text-[#F39C12] mb-6 group-hover:scale-110 transition-transform duration-300"></i>
+                    <h3 class="text-xl font-normal text-white mb-3 tracking-tight">Belt Grading System</h3>
+                    <p class="text-base text-gray-400 leading-relaxed">Structured, globally recognized progression path from white belt to black belt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats / Why Choose Us -->
+    <section class="relative py-24 bg-[#0A0A0A] overflow-hidden border-b border-white/5">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&amp;fit=crop&amp;q=80&amp;w=1600&amp;h=600" alt="Training Background" class="w-full h-full object-cover opacity-10 mix-blend-luminosity">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] to-transparent"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 text-center divide-x divide-white/5">
+                <div class="animate-fade-in delay-100">
+                    <div class="text-4xl md:text-5xl font-cinzel font-medium text-white mb-2 tracking-tighter">500+</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-widest font-normal">Students Trained</div>
+                </div>
+                <div class="animate-fade-in delay-200">
+                    <div class="text-4xl md:text-5xl font-cinzel font-medium text-[#F39C12] mb-2 tracking-tighter">50+</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-widest font-normal">State Champions</div>
+                </div>
+                <div class="animate-fade-in delay-300">
+                    <div class="text-4xl md:text-5xl font-cinzel font-medium text-white mb-2 tracking-tighter">15+</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-widest font-normal">Intl. Competitors</div>
+                </div>
+                <div class="animate-fade-in delay-100">
+                    <div class="text-4xl md:text-5xl font-cinzel font-medium text-[#C0392B] mb-2 tracking-tighter">10+</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-widest font-normal">Years Excellence</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="py-24 md:py-32 bg-[#0A0A0A]">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16 animate-fade-in">
+                <h2 class="font-cinzel text-3xl md:text-4xl font-medium tracking-tighter text-white mb-4">
+                    Training Schedule
+                </h2>
+                <p class="text-base text-gray-400">Consistent training builds champions. Find a batch that fits your routine.</p>
+            </div>
+
+            <div class="bg-[#1A1A1A] border border-white/5 rounded-sm overflow-hidden animate-fade-in delay-100">
+                <div class="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white/5">
+                    <div class="p-8 text-center group hover:bg-white/[0.02] transition-colors">
+                        <i data-lucide="sun" stroke-width="1.5" class="w-8 h-8 text-[#F39C12] mb-4 mx-auto"></i>
+                        <h4 class="text-base font-normal text-white mb-2 tracking-wide uppercase">Morning Batch</h4>
+                        <p class="text-xl text-gray-300 font-cinzel">6:00 AM – 8:00 AM</p>
+                    </div>
+                    <div class="p-8 text-center group hover:bg-white/[0.02] transition-colors">
+                        <i data-lucide="moon" stroke-width="1.5" class="w-8 h-8 text-blue-400 mb-4 mx-auto"></i>
+                        <h4 class="text-base font-normal text-white mb-2 tracking-wide uppercase">Evening Batch</h4>
+                        <p class="text-xl text-gray-300 font-cinzel">5:00 PM – 7:00 PM</p>
+                    </div>
+                    <div class="p-8 text-center group hover:bg-white/[0.02] transition-colors">
+                        <i data-lucide="calendar" stroke-width="1.5" class="w-8 h-8 text-[#C0392B] mb-4 mx-auto"></i>
+                        <h4 class="text-base font-normal text-white mb-2 tracking-wide uppercase">Weekend Special</h4>
+                        <p class="text-xl text-gray-300 font-cinzel">Saturday &amp; Sunday</p>
+                    </div>
+                </div>
+                <div class="bg-[#0A0A0A] p-4 text-center border-t border-white/5">
+                    <p class="text-sm text-gray-500 italic">Custom batch timings available on request.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-24 md:py-32 bg-[#111111] overflow-hidden border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 animate-fade-in">
+                <h2 class="font-cinzel text-3xl md:text-4xl font-medium tracking-tighter text-white mb-4">
+                    Gallery
+                </h2>
+                <p class="text-base text-gray-400">Moments of discipline, training, and triumph captured at Bodhidharma Martial Arts Club.</p>
+            </div>
+
+            <!-- Single Cover Image for Gallery -->
+            <div class="max-w-4xl mx-auto cursor-pointer animate-fade-in delay-100" onclick="openScrollingGallery()">
+                <div class="relative aspect-video overflow-hidden bg-[#1A1A1A] border border-white/5 hover:border-[#C0392B]/50 transition-colors duration-500 shadow-2xl rounded-sm w-full group">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.52 PM.jpeg" alt="Bodhidharma Gallery" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-transform duration-1000">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-[#0A0A0A]/40 to-transparent flex flex-col items-center justify-end pb-8 md:pb-12 opacity-90 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="w-14 h-14 md:w-16 md:h-16 bg-[#C0392B] group-hover:bg-[#E74C3C] rounded-full flex items-center justify-center mb-4 shadow-[0_0_20px_rgba(192,57,43,0.4)] group-hover:shadow-[0_0_30px_rgba(231,76,60,0.7)] group-hover:scale-110 transition-all duration-300 backdrop-blur-sm">
+                            <i data-lucide="images" stroke-width="1.5" class="w-6 h-6 md:w-8 md:h-8 text-white"></i>
+                        </div>
+                        <h3 class="font-cinzel text-xl md:text-2xl text-white tracking-wide mb-2">View Full Gallery</h3>
+                        <p class="text-gray-300 text-xs md:text-sm font-light">Click to explore our moments of discipline and triumph</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Screen Scrolling Gallery Modal -->
+            <style>
+                #hidden-gallery .cursor-pointer { cursor: default; }
+                #hidden-gallery i[data-lucide="maximize-2"] { display: none !important; }
+            </style>
+            <div id="hidden-gallery" class="fixed inset-0 z-[100] bg-[#0A0A0A] hidden overflow-y-auto w-full h-full">
+                <!-- Sticky Header -->
+                <div class="sticky top-0 bg-[#0A0A0A]/95 backdrop-blur-md border-b border-white/5 px-6 py-4 flex justify-between items-center z-[110]">
+                    <div class="flex items-center gap-3">
+                        <i data-lucide="images" stroke-width="1.5" class="w-6 h-6 text-[#C0392B]"></i>
+                        <h3 class="font-cinzel text-xl md:text-2xl text-white tracking-wide">Gallery Archives</h3>
+                    </div>
+                    <button onclick="closeScrollingGallery()" class="text-white/70 hover:text-white bg-white/10 hover:bg-[#C0392B] p-2 rounded-full transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+                
+                <div class="max-w-7xl mx-auto p-4 md:p-8 md:pt-10">
+                    <!-- Expanded grid with less congestion -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(0)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.52 PM.jpeg" alt="Gallery 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(1)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.53 PM.jpeg" alt="Gallery 2" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(3)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.54 PM (1).jpeg" alt="Gallery 4" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(4)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.54 PM (2).jpeg" alt="Gallery 5" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(5)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.54 PM (3).jpeg" alt="Gallery 6" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(7)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.55 PM.jpeg" alt="Gallery 8" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(8)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.55 PM (1).jpeg" alt="Gallery 9" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(9)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.56 PM.jpeg" alt="Gallery 10" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(10)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.56 PM (1).jpeg" alt="Gallery 11" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(11)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.57 PM.jpeg" alt="Gallery 12" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(12)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.57 PM (1).jpeg" alt="Gallery 13" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(13)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.58 PM.jpeg" alt="Gallery 14" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(14)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.59 PM.jpeg" alt="Gallery 15" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(15)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.27.59 PM (1).jpeg" alt="Gallery 16" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(16)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.00 PM.jpeg" alt="Gallery 17" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(17)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.00 PM (1).jpeg" alt="Gallery 18" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(18)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.02 PM.jpeg" alt="Gallery 19" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(19)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.02 PM (1).jpeg" alt="Gallery 20" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(20)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.03 PM.jpeg" alt="Gallery 21" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(21)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.03 PM (1).jpeg" alt="Gallery 22" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(22)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.03 PM (2).jpeg" alt="Gallery 23" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(23)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.03 PM (3).jpeg" alt="Gallery 24" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(24)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.04 PM.jpeg" alt="Gallery 25" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(25)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.04 PM (1).jpeg" alt="Gallery 26" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(26)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.04 PM (2).jpeg" alt="Gallery 27" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(27)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.05 PM.jpeg" alt="Gallery 28" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(28)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.05 PM (1).jpeg" alt="Gallery 29" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(29)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.07 PM.jpeg" alt="Gallery 30" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(30)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.07 PM (1).jpeg" alt="Gallery 31" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(31)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.08 PM.jpeg" alt="Gallery 32" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(32)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.08 PM (1).jpeg" alt="Gallery 33" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(33)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.09 PM.jpeg" alt="Gallery 34" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(34)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.09 PM (1).jpeg" alt="Gallery 35" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(35)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.09 PM (2).jpeg" alt="Gallery 36" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(36)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.10 PM.jpeg" alt="Gallery 37" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(37)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.11 PM.jpeg" alt="Gallery 38" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(38)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.11 PM (1).jpeg" alt="Gallery 39" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+                <div class="relative group aspect-square overflow-hidden bg-[#1A1A1A] rounded-sm cursor-pointer" onclick="openLightbox(39)">
+                    <img src="images/WhatsApp Image 2026-04-02 at 5.28.12 PM.jpeg" alt="Gallery 40" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" stroke-width="1.5" class="w-8 h-8 text-white/80"></i>
+                    </div>
+                </div>
+            </div> <!-- Closes expanded grid -->
+                </div> <!-- Closes inner padding div -->
+            </div> <!-- Closes full-screen modal -->
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-24 md:py-32 bg-[#0A0A0A]">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="font-cinzel text-3xl md:text-4xl font-medium tracking-tighter text-white mb-16 text-center animate-fade-in">
+                Fighters' Words
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="p-8 bg-[#1A1A1A] border border-white/5 rounded-sm relative animate-fade-in delay-100">
+                    <i data-lucide="quote" stroke-width="1.5" class="absolute top-6 right-6 w-10 h-10 text-white/5"></i>
+                    <p class="text-base text-gray-400 italic mb-6 leading-relaxed relative z-10">
+                        "Bodhidharma changed my life. From zero fitness to State medalist! The level of discipline and technique taught here is unmatched."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-[#C0392B]/20 flex items-center justify-center text-[#C0392B] font-normal text-base">
+                            AR
+                        </div>
+                        <div>
+                            <h5 class="text-base font-normal text-white">Arjun R.</h5>
+                            <span class="text-sm text-[#F39C12]">State Medalist</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="p-8 bg-[#1A1A1A] border border-white/5 rounded-sm relative animate-fade-in delay-200">
+                    <i data-lucide="quote" stroke-width="1.5" class="absolute top-6 right-6 w-10 h-10 text-white/5"></i>
+                    <p class="text-base text-gray-400 italic mb-6 leading-relaxed relative z-10">
+                        "The best Kung-Fu academy in Kerala. Highly disciplined training environment. The masters truly care about your progression."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-[#C0392B]/20 flex items-center justify-center text-[#C0392B] font-normal text-base">
+                            PM
+                        </div>
+                        <div>
+                            <h5 class="text-base font-normal text-white">Priya M.</h5>
+                            <span class="text-sm text-gray-500">Senior Student</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="p-8 bg-[#1A1A1A] border border-white/5 rounded-sm relative animate-fade-in delay-300">
+                    <i data-lucide="quote" stroke-width="1.5" class="absolute top-6 right-6 w-10 h-10 text-white/5"></i>
+                    <p class="text-base text-gray-400 italic mb-6 leading-relaxed relative z-10">
+                        "My kids love it here. Safe, structured, and inspiring. I've seen a massive improvement in their focus and confidence."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-[#C0392B]/20 flex items-center justify-center text-[#C0392B] font-normal text-base">
+                            SV
+                        </div>
+                        <div>
+                            <h5 class="text-base font-normal text-white">Sreekanth V.</h5>
+                            <span class="text-sm text-gray-500">Parent</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 md:py-32 bg-[#111111] border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Info & Map -->
+                <div class="animate-fade-in delay-100">
+                    <h2 class="font-cinzel text-3xl md:text-4xl font-medium tracking-tighter text-white mb-8">
+                        Step Into The Dojo
+                    </h2>
+                    
+                    <div class="space-y-6 mb-10">
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="map-pin" stroke-width="1.5" class="w-6 h-6 text-[#C0392B] mt-1"></i>
+                            <div>
+                                <h4 class="text-base font-normal text-white mb-1">Location</h4>
+                                <p class="text-base text-gray-400">Marathakkara, Thrissur, Kerala</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="phone" stroke-width="1.5" class="w-6 h-6 text-[#C0392B] mt-1"></i>
+                            <div>
+                                <h4 class="text-base font-normal text-white mb-1">Contact Numbers</h4>
+                                <p class="text-base text-gray-400">9746077661 <span class="mx-2 text-white/20">|</span> 8129502101</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="shield-check" stroke-width="1.5" class="w-6 h-6 text-[#C0392B] mt-1"></i>
+                            <div>
+                                <h4 class="text-base font-normal text-white mb-1">Govt. Registration</h4>
+                                <p class="text-base text-gray-400 font-mono">TSR/TC/182/25</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Placeholder -->
+                    <div class="w-full h-48 bg-[#1A1A1A] border border-white/5 rounded-sm overflow-hidden relative">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d3922.842792613133!2d76.2427!3d10.4355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef3a3f000001%3A0x0!2sMarathakkara%2C%20Thrissur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0; filter: grayscale(100%) invert(90%) contrast(80%); mix-blend-mode: screen;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="bg-[#0A0A0A] p-8 border border-white/5 rounded-sm animate-fade-in delay-200">
+                    <h3 class="text-xl font-normal text-white mb-6">Quick Enquiry</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-normal text-gray-400 mb-1">Full Name</label>
+                            <input type="text" class="w-full bg-[#1A1A1A] border border-white/10 rounded-sm px-4 py-2.5 text-base text-white focus:outline-none focus:border-[#C0392B] focus:ring-1 focus:ring-[#C0392B] transition-colors" placeholder="John Doe">
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-normal text-gray-400 mb-1">Phone Number</label>
+                                <input type="tel" class="w-full bg-[#1A1A1A] border border-white/10 rounded-sm px-4 py-2.5 text-base text-white focus:outline-none focus:border-[#C0392B] focus:ring-1 focus:ring-[#C0392B] transition-colors" placeholder="+91 00000 00000">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-normal text-gray-400 mb-1">Age</label>
+                                <input type="number" class="w-full bg-[#1A1A1A] border border-white/10 rounded-sm px-4 py-2.5 text-base text-white focus:outline-none focus:border-[#C0392B] focus:ring-1 focus:ring-[#C0392B] transition-colors" placeholder="18">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-normal text-gray-400 mb-1">Course Interest</label>
+                            <div class="relative">
+                                <select class="w-full bg-[#1A1A1A] border border-white/10 rounded-sm px-4 py-2.5 text-base text-white focus:outline-none focus:border-[#C0392B] focus:ring-1 focus:ring-[#C0392B] transition-colors appearance-none">
+                                    <option value="" disabled="" selected="">Select a program...</option>
+                                    <option>Shaolin Kung-Fu</option>
+                                    <option>Kick Boxing</option>
+                                    <option>Competition Training</option>
+                                    <option>Junior Warriors (Kids)</option>
+                                </select>
+                                <i data-lucide="chevron-down" stroke-width="1.5" class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none"></i>
+                            </div>
+                        </div>
+                        <button type="button" class="w-full bg-[#C0392B] hover:bg-red-700 text-white font-normal text-base py-3 rounded-sm transition-colors mt-4">
+                            Submit Enquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] pt-16 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div class="lg:col-span-2">
+                    <span class="font-cinzel text-2xl tracking-tighter font-medium text-white mb-4 block">
+                        BODHIDHARMA
+                    </span>
+                    <p class="text-base text-gray-500 max-w-sm mb-6">
+                        Elite Martial Arts Club specializing in Shaolin Kung-Fu &amp; Kick Boxing. Training champions from State to International levels.
+                    </p>
+                    <p class="font-cinzel text-[#F39C12] text-base tracking-wide font-normal italic">
+                        "TRAIN HARD. FIGHT SMART."
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-base font-normal text-white mb-4 uppercase tracking-wide">Quick Links</h4>
+                    <ul class="space-y-2 text-base text-gray-500">
+                        <li><a href="#" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#programs" class="hover:text-white transition-colors">Programs</a></li>
+                        <li><a href="#gallery" class="hover:text-white transition-colors">Gallery</a></li>
+                        <li><a href="#schedule" class="hover:text-white transition-colors">Schedule</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-base font-normal text-white mb-4 uppercase tracking-wide">Affiliations</h4>
+                    <ul class="space-y-2 text-sm text-gray-500 leading-tight">
+                        <li>WAKO India</li>
+                        <li>WAIS Kerala</li>
+                        <li>Ying Shaolin Kung Fu Academy</li>
+                        <li>Wushu Kung-Fu Org Kerala</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-sm text-gray-600">
+                    © 2025 Bodhidharma Martial Arts Club. All rights reserved.
+                </p>
+                <div class="text-sm text-gray-600 font-mono">
+                    Reg No: TSR/TC/182/25
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918129502101" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white shadow-[0_4px_20px_rgba(34,197,94,0.3)] hover:scale-110 transition-transform z-50 group">
+        <i data-lucide="message-circle" stroke-width="1.5" class="w-8 h-8 group-hover:animate-pulse"></i>
+    </a>
+
+    <script>
+        lucide.createIcons();
+
+        // Scrolling Gallery Controller
+        function openScrollingGallery() {
+            const galleryModal = document.getElementById('hidden-gallery');
+            galleryModal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Prevent main page scrolling
+        }
+
+        function closeScrollingGallery() {
+            const galleryModal = document.getElementById('hidden-gallery');
+            galleryModal.classList.add('hidden');
+            document.body.style.overflow = ''; // Restore main page scrolling
+        }
+        
+        // Blanking out openLightbox to prevent errors if elements retain old onclicks
+        function openLightbox(index) {
+            // Unused in scrolling mode
+        }
+
+        // Keyboard navigation for closing the scrolling gallery
+        document.addEventListener('keydown', function(e) {
+            const galleryModal = document.getElementById('hidden-gallery');
+            if (galleryModal && !galleryModal.classList.contains('hidden') && e.key === 'Escape') {
+                closeScrollingGallery();
+            }
+        });
+    </script>
+
+</body></html>
